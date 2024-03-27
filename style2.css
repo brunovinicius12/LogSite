@@ -1,0 +1,234 @@
+@charset "UTF-8";
+
+
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Honk&display=swap');
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Cabin:ital,wght@0,400..700;1,400..700&display=swap');
+
+@font-face {
+    font-family: 'terror';
+    src: url('C:\Users\Lucas\Documents\estudos\html\exercicios\teste\fontes\Heartless.otf') format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+*{ 
+
+margin: 0px;
+padding: 0px;
+}
+
+
+
+:root{
+--font: "Honk", sans-serif;
+    --fonte-destaque: "Bebas Neue", sans-serif;
+    --fonte2: "Cabin ital", sans-serif;
+}
+
+
+
+body{
+text-align: justify;
+
+    font-family: Arial, Helvetica, sans-serif;
+    background-image: url(img/o.png);
+    
+    font-family: Arial, Helvetica, sans-serif;
+    transition-duration: 8s;
+}
+
+
+
+.main{
+  
+    
+    box-shadow: 5px 5px 10px 4px #0000006c;
+    padding: 20px;
+    border-radius: 0px;
+    margin-bottom: 30px;
+color: rgb(255, 255, 255);
+min-width:300px ;   
+max-width: 1000px;
+margin: auto;
+border-bottom-right-radius: 10px;
+border-bottom-left-radius: 10px;
+
+    background-color: #4e3f8f18;
+}
+
+
+header{
+    min-height: 150px;
+    text-align: center;
+   padding-top: 40px;
+    
+}
+
+
+header > img { 
+
+width: 90px;
+
+}
+
+
+header > h1{
+   
+   margin-bottom: 30px; 
+    font-size: 40px;
+    font-style: italic;
+font-family: var(--fonte2);
+padding-top: 10px;
+}
+
+    .icon{
+width: 100px;
+
+    }
+
+    
+
+
+
+
+nav{
+    
+    padding-left: 10px;
+    margin-top: 50px;
+    text-align: left;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+
+    
+}
+
+   nav > a {
+    
+    border-radius: 20px;
+    font-weight: bold;
+    color: white;
+    transition-duration: .4s;
+    text-decoration: none;
+   
+    
+   }
+    
+   nav > a:hover{
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px 4px #0000006c;
+    background-color:#10253d;
+    padding: 10px;
+    
+}
+
+
+.navbotao > a:hover{
+
+width: 200px;
+background-color: aliceblue;
+
+
+
+
+}
+
+.container > p {
+    
+    
+background-color: rgba(233, 253, 253, 0);
+color: white;
+}
+
+
+
+
+
+   aside{
+    
+    margin: auto;
+    
+    min-width:300px ;   
+    max-width: 1000px;
+    padding: 10px;
+    border-radius: 10px;
+    box-shadow: 3px 7px 10px 10px rgba(0, 0, 0, 0.281);
+width: 800px;
+height: 700px;
+background-color: #6d658f18;
+
+   }
+
+aside > h1{
+
+    font-weight: bolder;
+    font-family: var(--fonte-destaque);
+    padding: 10px;
+    font-size: 40px;
+   
+text-align: center;
+    color: white;
+    
+}
+aside > p{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 10px;
+    padding: 10px;
+    padding-top: 15px;
+color: rgb(255, 255, 255);
+text-align: justify;
+
+
+}
+
+
+
+ul > li{
+    list-style: none;
+margin-left: 10px;
+color: white;
+
+}
+
+
+   h1{
+
+    color: white;
+   }
+
+   p{
+
+    color: white;
+   }
+
+   footer{
+
+    
+    
+    padding: 10px;
+    border-radius: 1px;
+    box-shadow: 10px 10px 10px 10px rgba(0, 0, 0, 0.281);
+width: 2000px;
+height: 10px;
+background-color: rgba(54, 81, 105, 0);
+   }
+
+   footer > p{
+    text-align: center;
+font-weight: bold;
+    font-style: italic;
+   }
+   .iconfooter{
+    width: 30px;
+   }
+
+
